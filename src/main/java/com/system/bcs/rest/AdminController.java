@@ -49,6 +49,7 @@ public class AdminController extends ClientController {
 	@PostMapping("login")
 	public ResponseEntity<?> login(@RequestParam String email, @RequestParam String password) {
 
+		
 //		String token = loginManager.loginToken(email, password, ClientType.Administrator);
 //		&& token != null
 		if (password.equals("admin") && email.equalsIgnoreCase("admin@admin.com")) {
