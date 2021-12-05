@@ -9,6 +9,7 @@ public class BcsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BcsApplication.class, args);
 		System.out.println("IoC Container was loaded!!!");
+		
 	}
 
 }
